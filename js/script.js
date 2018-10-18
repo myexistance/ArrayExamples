@@ -20,7 +20,7 @@ function addNewItem(){
 	console.log(list);
 	//way number 1
 	// document.getElementById("shoppingList").innerHTML += "<li>"+question+"</li>";
-    //way with loop
+    //way with for
 	for (var i = 0; i < list.length; i++) {
 		document.getElementById("shoppingList").innerHTML += "<li>"+list[i]+"</li>";
 	}
